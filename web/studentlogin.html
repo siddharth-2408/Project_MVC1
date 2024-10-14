@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Admin Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: cyan;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        table {
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+        }
+        td {
+            padding: 10px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome Student!</h1>
+    <form action="StudentLoginChecker" method="post">
+        <table>
+            <tr>
+                <td><strong>Id:</strong></td>
+                <td><input type="text" name="username" placeholder="Enter ID Here" required /></td>
+            </tr>
+            <tr>
+                <td><strong>Password:</strong></td>
+                <td><input type="password" name="password" placeholder="Enter Password Here" required /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

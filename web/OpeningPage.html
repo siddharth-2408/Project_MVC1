@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Opening Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: cyan;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #003366;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            margin: 0 auto;
+        }
+        .role-label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome User!</h1>
+    <table>
+        <tr>
+            <td class="role-label">Select a Role:</td>
+            <td>
+                <a href="adminLogin.html">
+                    <button class="button">Admin</button>
+                </a>
+            </td>
+            <td>
+                <a href="facultylogin.html">
+                    <button class="button">Staff</button>
+                </a>
+            </td>
+            <td>
+                <a href="studentlogin.html">
+                    <button class="button">Student</button>
+                </a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
